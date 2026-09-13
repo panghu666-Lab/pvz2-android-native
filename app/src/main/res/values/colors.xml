@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题色 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 大学狗工具风格颜色 -->
+    <color name="bg_pink">#fdf2f8</color>
+    <color name="icon_bg_purple">#e9d5ff</color>
+    <color name="icon_pressed_purple">#c4b5fd</color>
+    <color name="accent_purple">#7c3aed</color>
+    <color name="green">#16a34a</color>
+    <color name="text_dark">#1f2937</color>
+    <color name="text_dim">#6b7280</color>
+    <color name="card_white">#ffffff</color>
+    <color name="log_bg">#fafafa</color>
+    <color name="btn_light_pink">#fce7f3</color>
+</resources>

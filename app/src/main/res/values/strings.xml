@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PVZ2脚本工具</string>
+    <string name="title">PVZ2 工具</string>
+    <string name="status_loading">在线加载中...</string>
+    <string name="user_name">幸运儿</string>
+    <string name="menu_title">功能菜单</string>
+    <string name="log_title">运行日志</string>
+    <string name="clear">清空</string>
+    <string name="send">发送</string>
+    <string name="input_hint">输入命令...</string>
+
+    <!-- 功能菜单 -->
+    <string name="menu_login">登录账号</string>
+    <string name="menu_daily">一键日常</string>
+    <string name="menu_batch">批量养号</string>
+    <string name="menu_plant_upgrade">植物升阶</string>
+    <string name="menu_costume">装扮合成</string>
+    <string name="menu_pursuit">追击刷分</string>
+    <string name="menu_endless_shop">无尽商店</string>
+    <string name="menu_endless_coin">无尽刷币</string>
+    <string name="menu_gene">转基因</string>
+    <string name="menu_activity">活动领取</string>
+    <string name="menu_save">存档管理</string>
+    <string name="menu_stop">停止脚本</string>
+</resources>

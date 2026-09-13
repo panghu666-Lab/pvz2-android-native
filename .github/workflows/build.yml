@@ -26,13 +26,16 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: 安装Gradle
-      uses: gradle/actions/setup-gradle@v3
-      with:
-        gradle-version: '7.5'
+    - name: 下载并安装Gradle 8.0
+      run: |
+        wget -q https://services.gradle.org/distributions/gradle-8.0-bin.zip
+        unzip -q gradle-8.0-bin.zip
+        sudo mv gradle-8.0 /opt/gradle
+        echo "/opt/gradle/bin" >> $GITHUB_PATH
+        gradle --version
 
     - name: 生成Gradle Wrapper
-      run: gradle wrapper --gradle-version 7.5
+      run: gradle wrapper --gradle-version 8.0
 
     - name: 授予gradlew执行权限
       run: chmod +x gradlew
